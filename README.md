@@ -17,7 +17,7 @@ Um programa simples em Python para gerenciar arquivos de texto via linha de coma
 
 ### Execução
 
-# Clone o repositório
+
 ```bash
 https://github.com/luccasfsilva/pythonRAD
 
