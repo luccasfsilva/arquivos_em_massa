@@ -1,63 +1,25 @@
-# Gerenciador de Arquivos CLI 🗂️
+# 🚀 Python Daily Automations
 
-Um programa simples em Python para gerenciar arquivos de texto via linha de comando com sistema de menu interativo.
+Este repositório contém uma coleção de scripts em Python desenvolvidos para automatizar tarefas repetitivas do dia a dia, focando principalmente na organização de arquivos e produtividade.
 
-## Funcionalidades ✨
+## 🛠️ Scripts de Automação
 
-- ✅ Criar novos arquivos
-- ✅ Adicionar linhas com formatação automática
-- ✅ Visualizar conteúdo de arquivos
-- ✅ Interface amigável com menu
-- ✅ Validação de entradas
+Abaixo estão os detalhes de cada ferramenta incluída neste projeto:
 
-## Como Usar 🚀
+### 1. **FileSorter** (`Organizador_pasta.py`)
+Organiza automaticamente uma pasta bagunçada (como a de Downloads), movendo os arquivos para subpastas baseadas em suas extensões.
+* **Categorias:** Documentos, Imagens, Áudios/Vídeos e Executáveis.
 
-### Pré-requisitos
-- Python 3.x instalado
+### 2. **ChronoArchiver** (`Organizador_Data.py`)
+Ideal para organizar fotos e backups. Ele lê a data de modificação dos arquivos e os agrupa em pastas no formato `Ano-Mês`.
 
-### Execução
+### 3. **AutoPurge** (`Mover_arquivos_antigos.py`)
+Monitora arquivos que não são acessados há um determinado período (ex: 30 dias) e os move para uma pasta de "Arquivo Morto", mantendo seu espaço de trabalho limpo.
 
+---
 
-```bash
-https://github.com/luccasfsilva/pythonRAD
+## 🚀 Como usar
 
-# Acesse o diretório
-cd file-manager-cli
-
-# Execute o programa
-python file_manager.py
-```
-
-### Exemplo de Uso
-```
-Menu:
-1. Criar um arquivo
-2. Acrescentar linhas ao arquivo
-3. Mostrar o conteudo do arquivo
-0. Sair
-
-Opcao: 1
-Informe o nome do arquivo: [arquivo.txt]
-
-Opcao: 2
-Digite as linhas a serem acrescentadas (0 para parar):
-> exemplo de linha
-> OUTRA LINHA
-> 0
-
-Opcao: 3
-Exemplo de linha
-Outra linha
-```
-
-## Formatação Automática 🔠
-Todas as linhas são automaticamente convertidas para:
-- Primeira letra maiúscula
-- Demais caracteres minúsculos
-
-Exemplo de conversão:
-```
-Entrada: "ESTA É UMA LINHA"
-Saída: "Esta é uma linha"
-```
-
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
