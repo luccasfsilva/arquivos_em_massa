@@ -22,4 +22,4 @@ Monitora arquivos que não são acessados há um determinado período (ex: 30 di
 
 1. **Clone o repositório:**
    ```bash
-   git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
+   git clone [https://github.com/luccasfsilva/arquivos_em_massa](https://github.com/luccasfsilva/arquivos_em_massa)
