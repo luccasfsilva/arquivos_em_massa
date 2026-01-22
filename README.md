@@ -1,25 +1,35 @@
-# 🚀 Python Daily Automations
+# 📁 Ferramentas de Automação em Python
 
-Este repositório contém uma coleção de scripts em Python desenvolvidos para automatizar tarefas repetitivas do dia a dia, focando principalmente na organização de arquivos e produtividade.
+Este repositório reúne **scripts em Python voltados para automação, organização e análise de arquivos**, com foco em produtividade, segurança e uma experiência amigável no terminal.
 
-## 🛠️ Scripts de Automação
-
-Abaixo estão os detalhes de cada ferramenta incluída neste projeto:
-
-### 1. **FileSorter** (`Organizador_pasta.py`)
-Organiza automaticamente uma pasta bagunçada (como a de Downloads), movendo os arquivos para subpastas baseadas em suas extensões.
-* **Categorias:** Documentos, Imagens, Áudios/Vídeos e Executáveis.
-
-### 2. **ChronoArchiver** (`Organizador_Data.py`)
-Ideal para organizar fotos e backups. Ele lê a data de modificação dos arquivos e os agrupa em pastas no formato `Ano-Mês`.
-
-### 3. **AutoPurge** (`Mover_arquivos_antigos.py`)
-Monitora arquivos que não são acessados há um determinado período (ex: 30 dias) e os move para uma pasta de "Arquivo Morto", mantendo seu espaço de trabalho limpo.
+Os projetos contam com **modo interativo**, **simulação antes da execução real** e **saídas visuais claras**.
 
 ---
 
-## 🚀 Como usar
+## 🤖 Organizador Inteligente de Arquivos (`organizador_llm.py`)
 
-1. **Clone o repositório:**
-   ```bash
-   https://github.com/luccasfsilva/arquivos_em_massa
+Ferramenta avançada para **organizar arquivos automaticamente por data**, funcionando como um assistente no terminal.
+
+### ✨ Funcionalidades
+
+- 📅 Organização por:
+  - Data de modificação
+  - Data de criação
+  - Data de acesso
+- 🗂️ Criação automática de pastas por:
+  - Ano (`2024`)
+  - Ano-Mês (`2024-01`)
+  - Ano-Mês-Dia (`2024-01-15`)
+- 👀 **Modo simulação** (nenhum arquivo é movido)
+- 💾 Backup automático opcional
+- 🤝 Interface conversacional no terminal
+- 🚀 Modo rápido via linha de comando
+- 💻 Multiplataforma (Windows, Linux e macOS)
+
+---
+
+### ▶️ Como usar
+
+#### 🔹 Modo interativo (recomendado)
+```bash
+python organizador_llm.py
